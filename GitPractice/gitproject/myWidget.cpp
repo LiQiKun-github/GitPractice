@@ -7,6 +7,10 @@ myWidget::myWidget(QWidget *parent)
 
 }
 
+myWidget::~myWidget()
+{
+}
+
 void myWidget::resizeEvent(QResizeEvent* event)
 {
 }
