@@ -87,7 +87,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <QtRcc Include="gitproject.qrc" />
-    <QtUic Include="gitproject.ui" />
+    <QtUic Include="myWidget.ui" />
     <QtMoc Include="myWidget.h" />
     <ClCompile Include="myWidget.cpp" />
     <ClCompile Include="main.cpp" />

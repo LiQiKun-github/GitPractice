@@ -5,3 +5,7 @@ myWidget::myWidget(QWidget *parent)
 {
     ui.setupUi(this);
 }
+
+void myWidget::resizeEvent(QResizeEvent* event)
+{
+}

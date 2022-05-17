@@ -10,6 +10,9 @@ class myWidget : public QWidget
 public:
     myWidget(QWidget *parent = Q_NULLPTR);
 
+protected:
+    void resizeEvent(QResizeEvent* event);
+
 private:
     Ui::GitProjectClass ui;
 };
