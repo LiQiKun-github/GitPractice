@@ -12,5 +12,5 @@ public:
 
 private:
     Ui::GitProjectClass ui;
-    QWidget* _wgt;
+    QWidget* _wgt2;
 };
