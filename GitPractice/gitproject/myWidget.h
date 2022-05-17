@@ -15,4 +15,5 @@ protected:
 
 private:
     Ui::GitProjectClass ui;
+    QWidget* _wgt;
 };
