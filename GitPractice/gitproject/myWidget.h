@@ -15,8 +15,5 @@ protected:
     void resizeEvent(QResizeEvent* event);
 
 private:
-    Ui::GitProjectClass ui;
-    QWidget* _wgt2;
-    QWidget* _wgt4;
-    QWidget* _wgt5;
+    Ui::myWidget ui;
 };
