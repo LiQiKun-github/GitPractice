@@ -1,10 +1,10 @@
-#include "gitproject.h"
+#include "myWidget.h"
 #include <QtWidgets/QApplication>
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    GitProject w;
+    myWidget w;
     w.show();
     return a.exec();
 }

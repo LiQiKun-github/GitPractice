@@ -88,8 +88,8 @@
   <ItemGroup>
     <QtRcc Include="gitproject.qrc" />
     <QtUic Include="gitproject.ui" />
-    <QtMoc Include="gitproject.h" />
-    <ClCompile Include="gitproject.cpp" />
+    <QtMoc Include="myWidget.h" />
+    <ClCompile Include="myWidget.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
